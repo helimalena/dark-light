@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&family=Open+Sans&display=swap');
+
 :root {
     --color-light-50: #f8fafc;
 
@@ -9,5 +11,9 @@
     --color-purple-100: #a855f7;
     --color-purple-200: #bf46ef;
     
-    --color-gradient:linear-gradient;
+    --color-gradient:  linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200));
+}
+
+*{
+    font-family: 'Pop';
 }
